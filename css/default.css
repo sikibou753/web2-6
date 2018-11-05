@@ -6,6 +6,25 @@
   padding:0;
 }
 
+/* 640 */
+@media screen and (max-width:640px){
+  body{
+    background-color:red;
+  }
+}
+
+@media screen and(min-width:641)and(max-width:980px){
+  body{
+    background-color:green;
+  }
+}
+
+@media screen and(min-width:981px){
+  body{
+    background-color:blue;
+  }
+}
+
 body{
   background-color:gray;
 }
@@ -32,6 +51,19 @@ footer{
   text-align:center;
 }
 
+/* 641px以上 */
+@media screen and(min-width:641px){
+  aside{
+    width:calc(50%-20px);
+    float:left;
+  }
+  #side:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+}
+
 /* 1025px以上 */
 @media screen and(min-width:1025px){
   #main{
@@ -55,18 +87,3 @@ footer{
     clear:both;
   }
 }
-
-
-/* 641px以上 */
-@media screen and(min-width:641px){
-  aside{
-    width:calc(50%-20px);
-    float:left;
-  }
-  #side:after{
-    content:"";
-    display:block;
-    clear:both;
-  }
-}
-
