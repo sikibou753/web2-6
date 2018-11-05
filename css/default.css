@@ -6,25 +6,6 @@
   padding:0;
 }
 
-/* 640 */
-@media screen and (max-width:640px){
-  body{
-    background-color:red;
-  }
-}
-
-@media screen and(min-width:641)and(max-width:980px){
-  body{
-    background-color:green;
-  }
-}
-
-@media screen and(min-width:981px){
-  body{
-    background-color:blue;
-  }
-}
-
 body{
   background-color:gray;
 }
@@ -49,6 +30,25 @@ footer{
   padding:10px;
   background-color:blue;
   text-align:center;
+}
+
+/* 640 */
+@media screen and (max-width:640px){
+  body{
+    background-color:red;
+  }
+}
+
+@media screen and(min-width:641)and(max-width:980px){
+  body{
+    background-color:green;
+  }
+}
+
+@media screen and(min-width:981px){
+  body{
+    background-color:blue;
+  }
 }
 
 /* 641px以上 */
