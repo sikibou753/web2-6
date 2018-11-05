@@ -41,7 +41,7 @@ footer{
   #side:after{
     content:"";
     display:block;
-    cler:both;
+    clear:both;
   }
 }
 
